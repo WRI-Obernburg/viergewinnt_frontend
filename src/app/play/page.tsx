@@ -10,7 +10,7 @@ export default function Home() {
 
     return <div className="flex flex-col justify-center mt-4">
         <h1 className="text-3xl font-bold text-center mb-4">RV6L-Gewinnt</h1>
-        <p className="text-center text-lg">Beweise dich jetzt in einem Spiel gegen den Viergewinnt Roboter</p>
+        <p className="text-center text-lg">Beweise dich jetzt in einem Spiel gegen den Viergewinnt-Roboter</p>
 
         {sessionID ? <Game sessionID={sessionID} /> : <div className="text-red-500 text-center font-bold">Spiel ID fehlt</div>}
         

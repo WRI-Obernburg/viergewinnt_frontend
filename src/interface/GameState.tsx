@@ -7,4 +7,5 @@ export interface GameState {
     winner: number | null,
     board: number[][] | null;
     difficulty: 'easy' | 'medium' | 'hard'; // Difficulty level for AI
+    isPhysicalBoardClearing: boolean;
 }
